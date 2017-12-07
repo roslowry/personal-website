@@ -1,0 +1,263 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans|Cabin:400italic,700italic,400,700);
+
+// @import "node_modules/bootstrap/scss/bootstrap.scss";
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+// @import "node_modules/bootstrap-social/bootstrap-social.scss";
+// $line-height-computed: floor(($font-size-base * $line-height-base));
+// $padding-base-vertical: $btn-padding-y;
+// $padding-base-horizontal: $btn-padding-x;
+// $font-size-large: $font-size-lg;
+// $padding-large-vertical: $btn-padding-y-lg;
+// $padding-large-horizontal: $btn-padding-x-lg;
+// $font-size-small: $font-size-sm;
+// $padding-small-vertical: $btn-padding-y-sm;
+// $padding-small-horizontal: $btn-padding-y-sm;
+
+// Font Variables
+$roboto-slab: 'Roboto Slab', serif;
+$open-sans: 'Open Sans', sans-serif;
+$cabin: 'Cabin', sans-serif;
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  // font-family: 'Open Sans', sans-serif;
+  font-family: $cabin;
+  line-height: 100%;
+  // height: 100%
+  // font-family: 'Cabin', sans-serif;
+  // color: pink;
+  // font-family: times;
+}
+
+body {
+  height: 100%
+}
+
+
+
+.header-container {
+
+}
+
+.profile-container {
+
+}
+
+.page-container {
+  width: 90%;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*background-color: orange;*/
+  /*justify-content: center;*/
+  margin-bottom: 0px;
+}
+
+
+.image-tagline {
+  /*margin: auto;*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  // width:
+  // width: 90%;
+  /*width: 100%*/
+  /*width: 100*/
+  // width: 60%;
+  width: 420px;
+  /*height: 300px;*/
+  /*color: red;*/
+  margin-bottom: 10px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-decoration: bold;
+  // margin-bottom: 10px;
+  font-size: 18px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid grey;
+  /*width: 75%;*/
+}
+.navbar div {
+  /*text-decoration: bold;*/
+}
+
+.info-container  {
+  width: 450px;
+}
+
+
+
+.text {
+  /*align-self: flex-start;*/
+  /*width: 75%*/
+}
+#name {
+  font-size: 25px;
+  text-decoration: bold;
+}
+
+#title {
+  color: #7E8184
+}
+
+.portrait-img {
+  height:100px;
+  // width: 100px;
+
+  border-radius: 100%;
+  /*margin-right: 30px;*/
+  /*overflow: hidden;*/
+}
+
+
+.tagline {
+  /*color: orange;*/
+}
+
+.footer-social-icons {
+  margin: 10px auto;
+  margin-bottom: 0px;
+   position:fixed;
+   bottom: 0px;
+   bottom:0;
+  //  left: 0;
+  //  right: 0;
+   width:100%;
+   height:80px;   /* Height of the footer */
+   background-color: #E9EEF0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 1rem;
+}
+
+// .footer {
+//   position: absolute;
+//   right: 0;
+//   bottom: 0;
+//   left: 0;
+//   padding: 1rem;
+//   background-color: #efefef;
+//   text-align: center;
+// }
+
+// footer{position: absolute; bottom: 0; left: 0; right: 0;}
+.social-icons {
+  display: flex;
+  width: 200px;
+  justify-content: space-around;
+}
+
+// font-size: 36px;
+.fa.fa-facebook, .fa.fa-twitter, .fa.fa-rss, .fa.fa-youtube, .fa.fa-linkedin, .fa.fa-github, .fa.fa-envelope  {
+  color: grey;
+  font-size: 36px;
+}
+
+.skills-header {
+  text-align: center;
+  padding: 13px 0px;
+  font-size: 20px;
+}
+
+.skills-section {
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.skills-list {
+  // padding-bottom: 10px;
+  margin-top: 7px;
+
+}
+.skills-list li {
+  // padding-left: 15px;
+  list-style-position: inside;
+}
+
+.skill-level-type {
+  font-size: 17px;
+
+}
+
+.skill-box {
+  width:200px
+}
+
+.project-image {
+  width: 280px;
+  height: 140px;
+  // width: 300px;
+}
+
+.projects {
+  margin: 10px 0px;
+}
+
+.presentations-container {
+  width: 600px;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.presentation-box {
+  padding-bottom: 10px;
+  display: flex;
+
+
+}
+
+.project-image {
+  margin-right: 20px;
+}
+
+.links {
+  display: flex;
+  // justify-content: space-between;
+}
+
+.links a {
+  margin-right: 10px;
+}
+
+
+.form-div {
+  width: 500px;
+  margin: auto;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  align-items: center;
+}
+
+.contact {
+  padding-bottom: 240px;
+  text-align: center;
+}
+.content {
+  padding-top: 14px;
+  width: 710px;
+  margin: auto;
+  margin-bottom: 110px;
+  text-decoration: none;
+}
+
+.about {
+  width: 610px;
+  margin: auto;
+}
+
+.about p {
+  font-size: 17px;
+  align-text: justify;
+}
